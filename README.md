@@ -6,6 +6,7 @@ my Kivy gotcha's [Python]
 1. Any class defined in \*.kv file must have 'forward declaration' in \*.py (demo somewhat in code)
 
 2. Two main ideas for accessing kv <=> py:
+
   a) either via {Object|String|...}Property in both kv/py
   b) or via root.ids.id\_object1\_name.id\_object2\_name.property  (TODO:example)
 
